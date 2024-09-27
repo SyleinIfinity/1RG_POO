@@ -12,7 +12,6 @@ public class btap4_real{
             So[i] = sc.nextDouble();
         }
         double Min= So[0];
-        // double Max= So[0];
         for(int i = 0; i < spt; i++)
             if(So[i] < Min)
                 Min = So[i];
