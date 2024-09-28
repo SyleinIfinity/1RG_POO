@@ -17,4 +17,4 @@ public class baitap_2 {
             System.out.println("Yeu");
         sc.close();
     }
-} //dua bai tuan 2 vao di
+} 
