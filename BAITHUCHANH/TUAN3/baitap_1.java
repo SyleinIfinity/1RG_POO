@@ -15,4 +15,3 @@ public class baitap_1 {
         sc.close();
     }
 }
-//bai tuan may á...tuan 3 ok
