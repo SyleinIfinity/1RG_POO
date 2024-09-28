@@ -2,7 +2,7 @@ package BAITHUCHANH.TUAN2;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
-public class BT4_pro {
+public class BT4_Extend {
     public static void main(String[] args) {
         //Lãi suất sẽ cộng vào số dư mỗi tháng.
         Scanner sc = new Scanner(System.in);

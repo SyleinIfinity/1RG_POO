@@ -1,7 +1,7 @@
 package BAITHUCHANH.TUAN3;
 import java.util.*;
 
-public class btap4_extend {
+public class BT4_extend {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap so luong phan tu:");

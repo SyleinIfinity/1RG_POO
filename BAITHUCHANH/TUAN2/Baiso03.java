@@ -1,7 +1,7 @@
 // package BAITHUCHANH.TUAN2;
 
 import java.util.Scanner;
-public class baitap_3 {
+public class Baiso03 {
     public static void main(String[] args) {
         int x, y, tong, hieu, tich, du;
         double thuong;

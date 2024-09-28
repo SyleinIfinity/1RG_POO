@@ -1,6 +1,6 @@
 // package BAITHUCHANH.TUAN3;
 import java.util.Scanner;
-public class baitap_1 {
+public class Baiso01 {
     public static void main(String[] args) {
         int a;
         Scanner sc = new Scanner(System.in);

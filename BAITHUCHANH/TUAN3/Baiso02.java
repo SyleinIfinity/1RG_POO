@@ -1,7 +1,7 @@
 // package BAITHUCHANH.TUAN3;
 import java.util.Scanner;
 
-public class baitap_2 {
+public class Baiso02 {
     public static void main(String[] args) {
         float dtb;
         Scanner sc = new Scanner(System.in);

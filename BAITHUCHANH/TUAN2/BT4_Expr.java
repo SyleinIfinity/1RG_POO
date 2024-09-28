@@ -1,6 +1,6 @@
 package BAITHUCHANH.TUAN2;
 import java.util.*;
-public class BT4_demo {
+public class BT4_Expr {
     public static void main(String[] args) {
         //Lãi suất sẽ cộng vào số dư mỗi tháng.
         Scanner sc = new Scanner(System.in);

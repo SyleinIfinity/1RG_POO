@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Bai1 {
+public class Baiso01_Extend {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap n : ");

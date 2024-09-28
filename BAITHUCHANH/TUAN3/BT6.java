@@ -1,7 +1,7 @@
 package BAITHUCHANH.TUAN3;
 import java.util.*;
 
-public class Btap6 {
+public class BT6 {
     public static void main(String[] args) {
         Scanner KHANH = new Scanner(System.in);
         System.out.printf("Xin moi nhap vao phep tinh toan can su dung(+,-,*,/): ");
