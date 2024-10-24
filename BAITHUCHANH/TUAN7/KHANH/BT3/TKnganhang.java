@@ -7,7 +7,6 @@ public class TKnganhang {
     private double SoDu;
     private String password;
     static Scanner sc;
-    private String newMK;
 
     public long getSOTK(){
         return this.SoTK;
@@ -21,11 +20,21 @@ public class TKnganhang {
     public String getMK(){
         return this.password;
     }
-    public String newMK(){
-        return this.password = newMK;
+    public void setSOTK(long tkmoi){
+        this.SoTK = tkmoi;
+    }
+    public void doiMatKhau(String newMK){
+        this.password = newMK;
+    }
+    public void GUITIEN(Double TienGui){
+        this.SoDu = this.SoDu + TienGui;
+    }
+    
+    public void RUTTIEN(Double TienRut){
+        this.SoDu = this.SoDu - TienRut;
     }
 
-    public void NHAPALL(){
+    public void NHAP(){
         sc = new Scanner(System.in);
         System.out.printf("Nhap vao So Tai Khoan: ");
         this.SoTK = sc.nextLong();
@@ -38,18 +47,14 @@ public class TKnganhang {
         this.SoDu = sc.nextDouble();
         sc.nextLine();
     }
-    public void NHAPNEWMK(){
-        System.out.printf("\nNhap mat khau muon doi: ");
-        this.newMK = sc.nextLine();
-    }
 
-    public void XUATALL(){
-        System.out.printf("\nSo tai khoan: %20d", getSOTK());
-        System.out.printf("\nTen chu tai khoan: %20s", getCHUTK());
-        System.out.printf("\nMat khau ngan hang: %20s", getMK());
-        System.out.printf("\nSo du tai khoan: %20.3f", getSODU());
+    public void XUAT(){
+        System.out.printf("\nSo tai khoan       : %d", getSOTK());
+        System.out.printf("\nTen chu tai khoan  : %s", getCHUTK());
+        System.out.printf("\nMat khau ngan hang : %s", getMK());
+        System.out.printf("\nSo du tai khoan    : %.3f", getSODU());
     }
-    public void XUATNEWMK(){
-        System.out.printf("\nMat khau moi la: %s", newMK());
+    public void KiemTraSoDu(){
+        System.out.printf("\nSo du hien tai    : %.3f", getSODU());
     }
 }
